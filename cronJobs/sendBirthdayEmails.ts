@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-export function startBirthdayEmailCronJob() {
+function startBirthdayEmailCronJob() {
 cron.schedule('0 7 * * *', async () => {
   try {
     const today = new Date();
