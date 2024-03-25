@@ -3,7 +3,7 @@
   "scripts": {
     "tsc": "tsc",
     "dev": "nodemon --exec \"ts-node\" app.ts",
-    "start": "tsx app.ts",
+    "start": "npx tsx app.ts",
     "build": "tsc -b"
   },
   "type": "module",
